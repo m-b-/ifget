@@ -26,3 +26,5 @@ Please, report and port :-)
 # TODO
 Try to reduce ioctl(2) as much as possible in favors
 of pseudo fs or syscall. Refactor.
+
+Man page.
