@@ -190,21 +190,6 @@ getmask(int argc, char *argv[], char *buf, int n)
 	return 0;
 }
 
-int
-getcidr(int argc, char *argv[], char *buf, int n)
-{
-	snprintf(buf, n, "TODO");
-	return 0;
-}
-
-int
-getap(int argc, char *argv[], char *buf, int n)
-{
-	snprintf(buf, n, "TODO");
-	return 0;
-}
-
-
 /* ioctl, apparently not working */
 int
 getbcast2(int argc, char *argv[], char *buf, int n)

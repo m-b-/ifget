@@ -205,20 +205,6 @@ getmask(int argc, char *argv[], char *buf, int n)
 }
 
 int
-getcidr(int argc, char *argv[], char *buf, int n)
-{
-	snprintf(buf, n, "TODO");
-	return 0;
-}
-
-int
-getap(int argc, char *argv[], char *buf, int n)
-{
-	snprintf(buf, n, "TODO");
-	return 0;
-}
-
-int
 getbcast(int argc, char *argv[], char *buf, int n)
 {
 	struct ifreq ifr;

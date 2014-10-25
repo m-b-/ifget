@@ -5,8 +5,6 @@
 int getmac(int, char *[], char *, int);
 int getip(int, char *[], char *, int);
 int getmask(int, char *[], char *, int);
-int getcidr(int, char *[], char *, int);
-int getap(int, char *[], char *, int);
 int getbcast(int, char *[], char *, int);
 
 struct function {
@@ -17,8 +15,6 @@ struct function {
 	{ "mac",       getmac,       "<interface>"      },
 	{ "ip",        getip,        "[-6] <interface>" },
 	{ "mask",      getmask,      "[-6] <interface>" },
-	{ "cidr",      getcidr,      "[-6] <interface>" },
-	{ "ap",        getap,        "[-6] <interface>" },
 	{ "bcast",     getbcast,     "<interface>"      },
 	{ "",          NULL,         ""},
 };
